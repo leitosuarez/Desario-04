@@ -1,0 +1,273 @@
+/* Estilos generales */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+}
+
+h1{
+    display: flex;
+    box-sizing: border-box;
+    height: 600px;
+    background-image: url(/img/large-gym-motivation-hard-work-no-pain-no-gain-wall-poster-gym-original-imah563su3jesmey.webp);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 10px;
+    text-align:center;
+    font-weight: 800;
+    width: 100%;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 100px;
+    text-decoration:overline;
+    
+    align-items: center;
+    font-style: italic;
+    justify-content: center;
+    
+}
+
+.bordes-decoration{
+    margin: 0 auto;
+    height: 20px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.arriba{
+    clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
+}
+.abajo{
+    clip-path: polygon(3% 0, 97% 0, 100% 100%, 0% 100%);
+    margin-bottom: 40px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+fieldset{
+    box-shadow: -2px 2px 28px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 2px 28px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 28px 0px rgba(0,0,0,0.75);
+    border: 0;
+    background-color: white;
+    width: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+legend{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 15px;
+    padding: 12px;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    box-shadow: -2px 2px 28px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 2px 28px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 28px 0px rgba(0,0,0,0.75);
+    color:white;
+}
+
+span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.input-label{
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+}
+
+input{
+
+    box-sizing: border-box;
+    text-align: left;
+    border: 1px solid rgb(122, 113, 113);
+    width: 100%;
+    margin-top:10px;
+    padding: 7px 4px;
+    border-radius: 4px;
+    font-size: 15px;
+
+}
+
+select{
+    font-size: 15px;
+    width: 100%;
+    margin-top:10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(122, 113, 113);
+    color: rgb(122, 113, 113);
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    margin-top:10px;
+    padding: 40px 0;
+}
+
+.check{
+    display: inline;
+    margin: 0 auto;
+}
+
+.check input{
+    margin: 0;
+    width: 12px;
+}
+.check label{
+    margin:0 3px;
+
+}
+.check-container{
+    width: 40%;
+    margin-top: 0;
+}
+
+.check-container label:first-child{
+    display: block;
+    margin-bottom: 10px;
+}
+/*  */
+
+/* Estilos separacion entre formularios */
+.decoracion-circulos{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.decoracion-circulos div{
+    margin: 0 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: blueviolet;
+}
+
+/*  */
+
+/* Estilos ultimo form; Apartado de "Actividades" */
+.ultimo-form{
+    padding-left: 0;
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+}
+
+.ultimo-form :first-child{
+    font-size: 16px;
+
+}
+
+.ultimo-fieldset{
+    box-sizing: border-box;
+    text-align: left;
+    padding: 25px;
+    padding-top: 50px;
+}
+
+.ultimo-form div{
+    display: flex;
+    margin-top: 15px;
+}
+
+.ultimo-form div input{
+    width: auto;
+    margin: 0;
+}
+
+.ultimo-form div label{
+    margin:0 5px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.form-actividades{
+    margin-bottom: 20px;
+}
+/*  */
+
+/* Termninos y condiciones */
+.terminos-condiciones{
+    display: flex;
+    margin: 0;
+    padding-left: 2px;
+    
+}
+
+.terminos-condiciones input{
+    width: auto;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.terminos-condiciones label{
+    color: black;
+}
+
+.container-terminos-condiciones p{
+    margin: 5px 0;
+    color: black;
+    font-weight: 600;
+}
+
+.botones{
+    text-align: center;
+    margin: 25px auto;
+}
+
+.botones button{
+    color: white;
+    font-weight: 500;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border: 0;
+    padding: 14px 16px;
+    margin: 0 10px;
+}
+/*  */
+
+/* ESTILOS CON PSEUDOCLASES */
+input:hover{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);;
+}    
+
+textarea:hover{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);;
+}
+fieldset:hover{
+    background-color: rgb(169, 100, 235);
+}
+
+button:hover{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    cursor: pointer;
+}
+
+/*  */
+
+label{
+    text-align: left;
+    font-weight: 600;
+}
+
+.input-label {
+    text-align: left;
+}

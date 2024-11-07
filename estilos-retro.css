@@ -1,0 +1,292 @@
+/* Estilos generales */
+
+body{
+    font-family: 'VT323';
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: blueviolet;
+}
+
+h1{
+    font-family: 'Doto', sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    width: 800px;
+    color: white;
+    font-size: 70px;
+    margin: 0 auto;
+}
+
+.bordes-decoration{
+    margin: 0 auto;
+    height: 18px;
+    width: 820px;
+    background-color: blueviolet;
+}
+
+.arriba{
+    margin-top: 40px;
+    clip-path: polygon(100% 0, 97% 53%, 100% 100%, 0% 100%, 3% 49%, 0% 0%);
+}
+.abajo{   
+    clip-path: polygon(100% 0, 97% 53%, 100% 100%, 0% 100%, 3% 49%, 0% 0%);
+    margin-bottom: 30px;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+fieldset{
+    box-sizing: border-box;
+    border: 5px solid blueviolet;
+    border-radius: 4px;
+    background-color: #FDBA74;
+    width: 800px;
+    padding: 20px;
+    margin: 0;
+}
+
+legend{
+    font-family: 'Doto';
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 14px;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color:white;
+}
+
+span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.input-label{
+    text-align: left;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+}
+
+input{
+    font-family: 'VT323';
+    color: blueviolet;
+    box-sizing: border-box;
+    text-align: left;
+    border: 3px solid blueviolet;
+    border-radius: 4px;
+    width: 100%;
+    margin-top:10px;
+    padding: 7px 4px;
+    font-size: 15px;
+
+}
+
+select{
+    font-size: 18px;
+    font-family: 'VT323';
+    width: 100%;
+    margin-top:10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 3px solid blueviolet;
+    color: blueviolet;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    margin-top:10px;
+    padding: 40px 0;
+}
+
+.check{
+    display: inline;
+    margin: 0 auto;
+}
+
+.check input{
+    margin: 0;
+    width: 12px;
+}
+.check label{
+    margin:0 3px;
+
+}
+.check-container{
+    width: 40%;
+    margin-top: 0;
+}
+
+.check-container label:first-child{
+    display: block;
+    margin-bottom: 10px;
+}
+/*  */
+
+/* Estilos separacion entre formularios */
+.decoracion-circulos{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.decoracion-circulos div{
+    margin: 0 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+/*  */
+
+/* Estilos ultimo form; Apartado de "Actividades" */
+.ultimo-form{
+    padding-left: 0;
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+}
+
+.ultimo-form :first-child{
+    font-size: 16px;
+
+}
+
+.ultimo-fieldset{
+    box-sizing: border-box;
+    text-align: left;
+    padding: 25px;
+    padding-top: 50px;
+}
+
+.ultimo-form div{
+    display: flex;
+    margin-top: 15px;
+}
+
+.ultimo-form div input{
+    width: auto;
+    margin: 0;
+}
+
+.ultimo-form div label{
+    margin:0 5px;
+}
+
+p{
+    font-size: 13px;
+}
+
+.form-actividades{
+    margin-bottom: 20px;
+}
+/*  */
+
+/* Termninos y condiciones */
+.terminos-condiciones{
+    display: flex;
+    margin: 0;
+    padding-left: 2px;
+    
+}
+
+.terminos-condiciones input{
+    width: auto;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.terminos-condiciones label{
+    color: white;
+}
+
+.container-terminos-condiciones p{
+    margin: 5px 0;
+    color: white;
+    font-weight: 600;
+}
+
+.botones{
+    text-align: center;
+    margin: 25px auto;
+}
+
+.botones button{
+    font-family: 'VT323';
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border: none;
+    padding: 20px 25px;
+    margin: 0 10px;
+}
+/*  */
+
+label{ 
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.decoracion-circulos div:nth-child(2n+1){
+    background-color: blueviolet;
+}
+
+.decoracion-circulos div:nth-child(2n){
+    background-color: #f9d423;
+}
+
+p{
+    font-size: 18px;
+}
+
+/* ESTILOS CON PSEUDOCLASES */ 
+
+
+
+textarea:hover{
+    background-color: blueviolet;
+}
+fieldset:hover{
+    transition: 0.4s;
+    padding: 10px;
+    background-color: blueviolet;
+    border:5px solid #FDBA74;
+    legend{
+        background-color: #FDBA74;
+    }
+    label{
+        color: white;
+    }
+    input{
+        border: 3px solid #FDBA74;
+        border-radius: 4px;
+    }
+    
+    
+}
+
+
+.ultimo-fieldset:hover{
+    transition: 0.3s;
+    padding: 30px 20px;
+    color: white;
+}
+
+button:hover{
+    background-color: #FDBA74;
+    cursor: pointer;
+}
+
+/*  */

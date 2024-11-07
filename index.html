@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Formulario</title>
+  </head>
+  <body>
+
+<div class="bordes-decoration arriba"></div>    
+<h1>Vení al Gym!💪🏼</h1>
+<div class="bordes-decoration abajo"></div>
+
+<div class="container">
+
+  <form action="https://postman-echo.com/post" method="post">
+    <fieldset>  
+      <legend>🙋🏼‍♂️<span>D</span>atos <span>P</span>ersonales👀</legend>
+      <div class="input-label">
+        <label for="lbl-nombre">Nombre:*</label>
+        <input name="Nombre" id="lbl-nombre" type="text" required>    
+      </div>
+      
+      <div class="input-label">
+        <label for="lbl-apellido">Apellido:*</label>
+        <input name="Apellido" id="lbl-apellido" type="text" required>
+      </div>
+      
+      <div class="input-label">
+        <label for="lbl-documento">Documento:*</label>
+        <input name="Documento" id="lbl-documento" type="text" required>
+      </div>
+      
+      <div class="input-label">
+        <label for="lbl-nacionalidad">Nacionalidad:*</label>
+        <select name="Nacionalidad" id="lbl-nacionalidad" required>
+          <option value="">- Seleccionar -</option>
+          <option value="">Argentina</option>
+          <option value="">Brasileña</option>
+          <option value="">Uruguaya</option>
+          <option value="">Otra</option>
+        </select>
+      </div>
+  
+      <div class="input-label">
+          <label for="lbl-textarea">Contanos un poco de vos...</label>
+          <textarea name="Contanos un poco de vos" id="lbl-textarea"></textarea>
+      </div>
+      
+      <div class="input-label check-container">
+          <label for="">Sexo:*</label>
+          <div class="check">
+            <input type="radio" name="opcion" checked required>
+            <label for="">Femenino</label>
+            <input type="radio" name="opcion" required>
+            <label for="">Masculino</label>
+            <input type="radio" name="opcion" required> 
+            <label for="">Otro</label>
+          </div>
+      </div>
+      
+    </fieldset>
+  </div> <!-- formulario-datos-personales -->
+  
+  <div class="decoracion-circulos">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div> <!-- Contenedor-decoracion-espaciado-entre-forms -->
+  
+  <div class="container">
+    <fieldset>
+      <legend>📱<span>D</span>atos de <span>C</span>ontacto📧</legend>
+  
+      <div class="input-label">
+        <label for="" id="lbl-telefono">Teléfono:*</label>
+        <input name="Teléfono" type="text" required placeholder="Código de área y número" id="lbl-telefono">
+      </div>
+  
+      <div class="input-label">
+        <label for="lbl-email">Direccion de correo electronico:*</label>
+        <input name="email" type="email" required placeholder="Ej: mail@gmail.com" id="lbl-email">
+      </div>
+  
+    </fieldset>
+  </div> <!-- Formulario-datos-de-contacto -->
+  
+  <div class="decoracion-circulos">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div> <!-- Contenedor-decoracion-espaciado-entre-forms -->
+  
+  <div class="container">
+    <fieldset class="ultimo-fieldset">
+      <legend>🚴<span>A</span>ctividades🤸🏼</legend>
+    
+      <p>Por favor, indica cuales actividades te interesan</p>
+      <div class="input-label ultimo-form">
+        <label for="">Sede Palermo:</label>
+        <div>
+          <input name="Básquet-sede-palermo" type="checkbox">
+          <label for="">Básquet</label>
+          <input name="Boxeo-sede-palermo" type="checkbox">
+          <label for="">Boxeo</label>
+          <input name="Tenis-sede-palermo" type="checkbox">
+          <label for="">Futbol</label>
+          <input name="Tenis-sede-palermo" type="checkbox">
+          <label for="">Tenis</label>
+        </div>
+      </div>
+  
+      <div class="input-label ultimo-form">
+        <label for="">Sede Rosario:</label>
+        <div>
+          <input name="Básquet-sede-rosario" type="checkbox">
+          <label for="">Básquet</label>
+          <input name="Futbol-sede-rosario" type="checkbox">
+          <label for="">Futbol</label>
+          <input name="Rugby-sede-rosario" type="checkbox">
+          <label for="">Rugby</label>
+          <input name="Voley-sede-rosario" type="checkbox">
+          <label for="">Voley</label>
+        </div>
+    </div>
+    </fieldset>
+  </div> <!-- Formulario Actividades-penultimo -->
+  
+  <div class="container container-terminos-condiciones">
+  
+    <div class="input-label terminos-condiciones">
+      <input type="checkbox" required>
+      <label for="">Acepto las condiciones*</label>
+    </div>
+  
+    <div class="input-label terminos-condiciones">
+      <input type="checkbox">
+      <label for="">Deseo recibir novedaes</label>
+    </div>
+    
+    <p>*:campo obligatorio.</p>
+    
+    <div class="botones">
+      <button type="submit">Iniciar afiliación</button>
+      <button type="reset">Restablecer</button>
+    </div>
+  
+  </div> <!-- Terminos y condiciones-ultimo -->
+</form>
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
